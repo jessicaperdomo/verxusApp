@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { AppFooterComponent } from './components/app-footer/app-footer.component';
 import { AppHeaderComponent } from './components/app-header/app-header.component';
 import { CampeonatosComponent } from './modules/campeonatos/campeonatos.component';
+import { ModalidadesComponent } from './modules/modalidades/modalidades.component';
+import { SobreComponent } from './modules/sobre/sobre.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppFooterComponent,
     AppHeaderComponent,
-    CampeonatosComponent
+    CampeonatosComponent,
+    ModalidadesComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,
