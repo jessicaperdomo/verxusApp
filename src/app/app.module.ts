@@ -8,6 +8,7 @@ import { AppHeaderComponent } from './components/app-header/app-header.component
 import { CampeonatosComponent } from './modules/campeonatos/campeonatos.component';
 import { ModalidadesComponent } from './modules/modalidades/modalidades.component';
 import { SobreComponent } from './modules/sobre/sobre.component';
+import { LoginComponent } from './modules/login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SobreComponent } from './modules/sobre/sobre.component';
     AppHeaderComponent,
     CampeonatosComponent,
     ModalidadesComponent,
-    SobreComponent
+    SobreComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
